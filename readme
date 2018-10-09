@@ -1,0 +1,13 @@
+Code for heterogeneous MRA. For methods see "Heterogeneous multireference alignment for images with application to 2-D classification in single particle reconstruction"
+
+-files:
+  -E70s.mat, emd3551.mat, emd8117.mat: projections from different molecules. 
+  -hMRA_uniform.m, hMRA_nonuniform.m: functions to do hMRA for uniform or nonuniform distribution.
+  -hMRA_EM_uniform.m, hMRA_EM_nonuniform.m: functions to compare EM with hMRA algorithm, for uniform or nonuniform distribution.
+  -run.m: code to reproduce the experiments in the paper
+
+-Before running the code, install the ASPIRE package from http://spr.math.princeton.edu
+
+-run.m uses a function "subtightplot" to generate subplots with small gaps and margins. The functions can be downloaded from https://www.mathworks.com/matlabcentral/fileexchange/39664-subtightplot
+
+Coded by Chao Ma, chaom@princeton.edu
